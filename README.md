@@ -1,2 +1,3 @@
-# Mon_CV
-Voici mon CV en HTML/CSS/JS
+# CV-en-HTML-CSS
+
+Bonjour :) Je suis Elisa DORIVAL

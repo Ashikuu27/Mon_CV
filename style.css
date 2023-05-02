@@ -1,0 +1,337 @@
+body{
+    padding: 20px;
+    text-align: center;
+}
+
+body li{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Big John', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8em;
+    margin-top: -15px;
+    margin-left: 30px;
+    margin-bottom: -5px;
+    color: #411B62;
+}
+
+h2{
+    font-family: 'Staatliches', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    color: #681677;
+
+}
+
+h3{
+    font-family: 'Fira Sans Condensed', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em;
+    color: #114C64;
+
+}
+
+#coordonnees{
+    font-family: 'Staatliches', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em;
+    list-style-type: none;
+}
+
+
+
+p{
+    font-family: 'Merriweather Sans Light', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+
+
+/* header */
+
+header{
+    display: flex;
+    align-items: flex-start;
+    
+    flex-wrap: wrap;
+    
+}
+
+#photoContainer{
+    background-color: #411B62;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#photoContainer img{
+    width: 380px;
+    border-radius: 70px 0px;
+    
+}
+
+.infos{
+    font-family: 'Staatliches', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em;
+
+}
+
+.icon{
+    margin: 0px 10px 0px 0px;
+}
+
+.tel{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+
+
+.adresse{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+.mail{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+.DOB{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+.linkedin{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+    word-wrap: break-word;
+    
+}
+
+
+.voiture{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+
+
+/* body */
+
+.trait{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.traitSeparation{
+    width: 1000px;
+    border-top: 1px solid black;
+    text-align: center;
+
+}
+
+/* profil et tel */
+
+
+
+.iconUser{
+    color: black;
+}
+
+.profil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+/* BODY PRINCIPAL */
+
+#NWS{
+    display: flex;
+    flex-direction: column;
+}
+
+#NWSCompetences{
+    display: flex;
+    font-family: 'Merriweather Sans Light', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.année{
+    font-size: 1.1em;
+}
+
+.intituley{
+    font-weight: bolder;
+}
+
+.lieuStage{
+    font-variant: small-caps;
+}
+
+.typeExperience
+{
+    font-family: 'Merriweather Sans Light', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+
+
+.typeProjet{
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.descriptionProjet{
+    display: flex;
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    
+}
+
+.descriptionProjet li {
+    list-style-type: square;
+}
+
+/* Skills & languages */
+
+
+
+.skills{
+    display: flex;
+    justify-content: center;
+}
+
+.skills ul{
+    margin-left: -40px;
+}
+
+.blockDroit2 {
+    background-color: rgb(107, 50, 50);
+    width: 30%;
+    height: 350px;
+    margin-right: 100px;
+    padding: 50px;
+    text-align: justify;
+    font-family: 'Staatliches', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em; 
+
+}
+
+.blockDroit2 li{
+    list-style-type: none;
+}
+
+/* Hobbies */
+
+#myHobbies{
+    display: flex;
+}
+
+
+
+
+
+/* FLIP BOX */
+
+#projets {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1620px;
+    margin-bottom: 400px;
+
+  }
+  
+  .flip-box {
+    background-color: transparent;
+    width: 30%;
+    min-height: 100px;
+    perspective: 1000px; /* Pour l'effet 3D */
+    margin: 100px;
+  }
+  
+  .flip-box-inner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Rotation verticale au hover */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+  
+  /* Positionnement des faces*/
+  .flip-box-front,
+  .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    padding: 33% 0;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    
+  }
+  
+  /* Style du recto */
+  .flip-box-front {
+    background-color: #f1f1f1;
+    color: white;
+    border-radius: 70px 0px;
+    border: 25px double #411B62;
+  }
+  
+  /* Style du verso */
+  .flip-box-back {
+    background-color: #979696;
+    color: white;
+    transform: rotateX(180deg);
+    border-radius: 70px 0px;
+    text-align: left;
+    font-family: 'Merriweather Sans Light', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flip-box-back li{
+    list-style-type: none;
+
+  }
+
+  .flip-box-back table{
+    font-family: 'Staatliches', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em; 
+
+
+  }
+
+  .flip-box-back p{
+    font-family: 'Merriweather Sans Light', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em; 
+    text-align: justify;
+    padding: 15px;
+  }
+.toHide {
+    color: transparent;
+}
+  
+/* HOBBIES */
+
+#myHobbies table{
+    font-family: 'Merriweather Sans Light', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em; 
+}
+
+#myHobbies td{
+    padding: 7px;
+}

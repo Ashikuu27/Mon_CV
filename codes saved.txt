@@ -1,0 +1,114 @@
+<section id="a_propos">
+                <h2>
+                    A propos
+                </h2>
+                <p>
+                    <ul id="coordonnees">
+                        <div class="tel">
+                            <div class="icon">                            
+                                <i class="fa-solid fa-phone" class="icon"></i>
+                            </div>
+                            <li>
+                                06 10 19 73 91
+                            </li>
+                        </div>
+                        <div class="adresse">
+                            <div class="icon">
+                                <i class="fa-solid fa-house" class="icon"></i>
+                            </div>
+                            <li>
+                                76140 Le Petit-Quevilly
+                            </li>
+                        </div>
+                        <div class="mail">
+                            <div class="icon">
+                                <i class="fa-solid fa-at"></i>
+                            </div>
+                            <li>
+                                elisa.dorival@live.fr
+                            </li>
+                        </div>
+                        <div class="DOB">
+                            <div class="icon">
+                                <i class="fa-solid fa-cake-candles"></i>
+                            </div>
+                            <li>
+                                24.03.2001
+                            </li>
+                        </div>
+                        <div class="linkedin">
+                            <div class="icon">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <li>
+                                <a href="https://www.linkedin.com/in/elisa-dorival/" target="_blank">www.linkedin.com/in/elisa-dorival/</a> 
+                            </li>
+                        </div>
+                        <div class="voiture">
+                            <div class="icon">
+                                <i class="fa-solid fa-car-side" class="icon"></i>
+                            </div>
+                            <li>
+                                Véhiculée Permis B
+                            </li>
+                        </div>  
+                    </ul>
+                </p>
+            </section>
+
+
+
+
+
+
+
+                    /* section à propos */
+
+#a_propos{
+    background-color: #681677;
+    padding: 15px;
+    width: 90%;
+    word-wrap: break-word;
+  
+
+}
+
+
+.icon{
+    margin: 0px 10px 0px 0px;
+}
+
+.tel{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+
+
+.adresse{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+.mail{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+.DOB{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+.linkedin{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+    word-wrap: break-word;
+    
+}
+
+
+.voiture{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
